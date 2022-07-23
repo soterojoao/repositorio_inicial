@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,500&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-color: #fefae0;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+header{
+    height: 10%;
+    background-color: #ccd5ae;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+header ul li a{
+    font-family: 'DM Sans', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    color: #e9edc9;
+    border: 1px solid #d4a373;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+header ul li a:hover{
+    background-color: #606c38;
+}
+#paralax{
+    height: 90%;
+    background-image: url(Screenshot_20220722-212711_WhatsApp.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    opacity: 0.3;
+}
+#content{
+    height: 100%;
+    background-color:#fefae0;
+    margin: 40px;
+}
+.container{
+    background-color: #ccd5ae;
+    height: 300px;
+    width: 250px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 1px 1px 20px #606c38 ;
+}
+.container h2{
+    color: #283618;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #606c38;
+}
+.container p{
+    margin-top: 20px;
+    color: #606c38;
+}
+.picture{
+    background-color: #606;
+    height: 380px;
+    width: 330px;border-radius: 0px 5px 5px 0px;
+    box-shadow: 1px 1px 20px #606c38 ;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+@media (max-width:900px) {
+    section{
+        flex-direction: column;
+    }
+    
+}
